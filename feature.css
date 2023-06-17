@@ -1,0 +1,17 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    margin: auto;
+    margin-bottom: 3vw;
+    padding: 20px;
+    padding-top: 10%;
+    min-width: 85%;
+    max-width: 95%;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    box-shadow: 5px 10px 30px #9dcae0;
+}
