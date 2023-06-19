@@ -31,8 +31,6 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="./font-awesome.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -60,7 +58,7 @@
     <header class="header">
       <div class="header__container">
 
-        <h1><a class="mainlogo" href="index.html">PhoenixMart</a></h1>
+        <h1><a class="mainlogo" href="https://phoenixmart.onrender.com/" target="_blank">PhoenixMart</a></h1>
         <nav aria-labelledby="primary-navigation">
 
           <ul id="menu-list" class="header__list">
@@ -74,7 +72,7 @@
               
             </li>
             <li class="header__item">
-              <a href="#" class="header__link">Contact</a>
+              <a href="#contact" class="header__link">Contact</a>
             </li>
             <li class="header__item">
               <a href="https://phoenixmart.onrender.com/" target="_blank" class="header__button">Explore PhonexMart</a>
@@ -98,52 +96,66 @@
       <section class="main__first-section" id="features">
         <div class="section__block">
           <h2 class="section__heading">Features</h2>
-          <p class="section__description">
-            Phoenixmart's Smart Search feature allows users to quickly find the products they are looking for. 
-            With an efficient search algorithm, users can easily search for specific products, categories, or even vendor names.
-            This feature enhances the user experience by saving time and delivering accurate search results.
-          </p>
+          
+          <div class="home_features">
+            <img src="./img/mega-menu.png" alt="Features Image">
+
+            <div class="content_right">
+              <h3 class="feature_description">Mega-Menu</h3>
+              <p>The Megamenu section of our website is designed to enhance user navigation and provide a comprehensive overview of the various categories and subcategories available on PhoenixMart. It offers a visually appealing and user-friendly interface that allows users to easily explore and discover the extensive range of products and services we offer.</p>
+            </div>
+          </div>
+
+          <div class="home_features">
+            <div class="content_left">
+              <h3 class="feature_description">Rich Product Descriptions and Images</h3>
+              <p>Product descriptions in Phoenixmart provide detailed information about products. This feature helps users understand the specifications, features, and benefits of each product, making it easier for them to evaluate and compare items before making a purchase. And also Phoenixmart displays high-quality product images, allowing users to have a clear visual representation of the items they are interested in.</p>
+            </div>
+            <img src="./img/product-description.png" alt="Features Image">
+            
+          </div>
+
+          <div class="home_features">
+
+            <img src="./img/shop-categories.png" alt="Features Image">
+
+            <div class="content_right">
+              <h3 class="feature_description">Shop Categories</h3>
+              <p>Phoenixmart offers a wide range of categories for easy navigation and browsing. Users can explore different categories such as Food, Fashion, Electronics, etc. This feature helps users quickly find products of their interest and enhances the overall shopping experience by organizing items into relevant categories.</p>
+  
+            </div>
+          </div>
+
           <a href="feature.html" class="section__link">Learn more</a>
         </div>
-        <picture class="section__picture">
-          <source
-            media="(min-width: 56em)"
-            srcset="./images/phoenixmart-big.png"
-          />
-          <img
-            src="./images/phoenixmart-big.png"
-            alt=""
-            class=""
-            width="750"
-            height="624"
-          />
-        </picture>
       </section>
+
       <!-- About Section -->
       <section class="main__second-section" id="about">
-        <div class="section__block">
-          <h2 class="section__heading">About Us</h2>
-          <p class="section__description">
-            At Techie Nerd Squad, we are a dedicated team of technology enthusiasts passionate about creating innovative e-commerce solutions. 
-            With a shared vision of revolutionizing the online shopping experience, 
-            we have come together to develop a platform that caters to the needs of modern consumers..
+        <div class="about_section__block">
+          <h2 class="section__heading">About PhoenixMart</h2>
+          <p>
+            PhoenixMart is a groundbreaking e-commerce platform that aims to revolutionize the retail industry. Inspired by the rapidly evolving digital landscape, our team embarked on this ambitious project to redefine the way people shop and connect with brands. Unlike traditional marketplaces, PhoenixMart offers a seamless and personalized shopping experience, making it easier for customers to discover and purchase products they love.
           </p>
-          <a href="https://phoenixmart.onrender.com/about_us/" class="section__link">Learn more</a>
+          <p>
+            Developed as a Portfolio Project for Holberton School, PhoenixMart showcases our deep understanding of modern web technologies and our ability to create innovative solutions. We have poured countless hours of dedication and collaboration into this project, leveraging cutting-edge frameworks and design principles to deliver a platform that exceeds expectations.
+          </p>
+          <p>
+            Throughout the development process, we focused on building a robust and scalable architecture that ensures the platform's stability and performance. From crafting an intuitive user interface to implementing secure payment gateways, every aspect of PhoenixMart has been meticulously designed and engineered to provide a seamless shopping experience.
+          </p>
+          <p>
+            By combining our technical expertise with a user-centered approach, we have created a platform that not only benefits customers but also empowers sellers. PhoenixMart provides a feature-rich seller dashboard, enabling businesses to manage their inventory, track sales analytics, and connect with a broader audience. Our goal is to foster a vibrant and thriving community where sellers can flourish and customers can find the products they desire.
+          </p>
+        
+          <h3>Github Repository</h3>
+          <p>
+            You can access the project's code and contribute on our <a href="https://github.com/your-github-repo" target="_blank">GitHub repository</a>.
+          </p>
+
         </div>
-        <picture class="section__picture">
-          <source
-            media="(min-width: 56em)"
-            srcset="./images/tnslogo.jpg"
-          />
-          <img
-            src="./images/tnslogo.jpg"
-            alt=""
-            class=""
-            width="750"
-            height="624"
-          />
-        </picture>
+        
       </section>
+
       <!-- Meet Our Team Sectio -->
       <section class="main__team">
         <h2 class="team__heading">Meet Our Team</h2>
@@ -153,7 +165,7 @@
               Passionate about creating seamless user experiences and designing beautiful interfaces.
             </blockquote>
             <figcaption>
-              <img src="./images/image-emily.webp" alt="" width="144" height="144" />
+              <img src="./images/image-emily.webp" alt="" width="144" height="144">
               <div class="figcaption__text-block">
                 <p>
                   <span class="figcaption__user-name">Imoleayo A.</span>
@@ -220,7 +232,7 @@
       </nav>
 
       <!--SOCIAL LINKS-->
-      <nav class="footer__socials" aria-label="socials">
+      <nav id="contact" class="footer__socials" aria-label="socials">
         <ul role="list" class="socials__links">
           <li role="listitem">
             <a href="https://web.facebook.com/racham.victor" aria-label="Facebook">
